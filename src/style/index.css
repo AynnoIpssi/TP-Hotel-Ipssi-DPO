@@ -1,0 +1,55 @@
+
+@font-face {
+    font-family: 'police1';
+    src: url('../fonts/YDGothic\ 120\ Pro.ttf');
+}
+
+@font-face {
+    font-family: 'Panton-Black-Caps';
+    src:url('../fonts/Panton-Black-Caps.ttf.woff') format('woff'),
+        url('../fonts/Panton-Black-Caps.ttf.svg') format('svg'),
+        url('../Panton-Black-Caps.ttf.eot'),
+        url('Panton-Black-Caps.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    font-family: 'Panton-Black-Caps' sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    font-family: 'police1', sans-serif;
+    font-weight: normal;
+    font-style: normal; 
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 8%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+nav{
+    height: 5%;
+    width: 100%;
+    background-color: #292424;
+}
+
+nav h1{
+    color: #ffffff;
+}
